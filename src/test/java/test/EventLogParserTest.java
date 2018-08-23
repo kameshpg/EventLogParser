@@ -31,7 +31,7 @@ public class EventLogParserTest {
 		
 		EventLogParser classUnderTest = new EventLogParser();
 		assertTrue(!(classUnderTest.getAllLogs().size()<0),
-				"parseLogs() should return 'false'");
+				"allLogs() should return more than zero records");
 		
 	}
 }
